@@ -1,0 +1,11 @@
+interface FileInterface {
+    
+    string ContarLineas(in string archivo);
+    string ContarVocales(in string archivo);
+    void Escribe(in string archivo, in string contenido);
+    string Imprimir(in string archivo);
+    void Respaldar(in string archivo, in string respaldo);
+    void Copiar(in string archivo, in string archivin);
+    void Renombrar(in string archivo, in string renombrado);
+    boolean Borrar(in string archivo);
+};
